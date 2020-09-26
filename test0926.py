@@ -40,10 +40,10 @@ def sqlite_insert():
 
 
 cred = credentials.Certificate(
-    '/home/pi/Documents/moisture-6f216-firebase-adminsdk-7tuzg-71ecc7c30e.json')
+    '')
 
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://moisture-6f216.firebaseio.com/',
+    'databaseURL': '',
     'databaseAuthVariableovverride': {
         'uid' 'my-service-worker'
     }
